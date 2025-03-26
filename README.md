@@ -17,7 +17,7 @@ The notebook explores **four clustering pipelines** and selects a final model ba
 - Batch processes and saves `.png` results.
 - Model saved with `joblib` as improved_kmeans_model.pkl.
 
-CLustering results saved in: `/clustering_kmeans_raw/`
+CLustering results saved in: [`clustering_kmeans_raw/`](https://drive.google.com/drive/folders/1AFfx9Tu9jJ3qBM7exEAxFZhFY-1saN7u?usp=drive_link)
 
 ---
 
@@ -28,7 +28,7 @@ CLustering results saved in: `/clustering_kmeans_raw/`
 - Includes optional silhouette-based `auto_choose_k`.
 - More sensitive to structure but less robust across all disks.
 
-Results saved in: `/clustering_results/`
+Results saved in: [`clustering_results/`](https://drive.google.com/drive/folders/1NHKf3KppMx5mLPN2QrDlVVx3a62qRMqS?usp=drive_link)
 
 ---
 
@@ -54,7 +54,7 @@ Results saved in: `/clustering_results/`
 | Step 1 | Load `.fits` files from Drive |
 | Step 2 | Visualize raw disk slices |
 | Step 3 | Apply clustering algorithms |
-| Step 4 | Evaluate results via visuals and silhouette (optional) |
+| Step 4 | Evaluate results via visuals and silhouette |
 | Step 5 | Save cluster maps to output folders |
 
 ---

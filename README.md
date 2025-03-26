@@ -51,11 +51,11 @@ Results saved in: [`clustering_results/`](https://drive.google.com/drive/folders
 
 | Step | Description |
 |------|-------------|
-| Step 1 | Load `.fits` files from Drive |
-| Step 2 | Visualize raw disk slices |
-| Step 3 | Apply clustering algorithms |
-| Step 4 | Evaluate results via visuals and silhouette |
-| Step 5 | Save cluster maps to output folders |
+| 1 | Load `.fits` files from Drive |
+| 2 | Visualize raw disk slices |
+| 3 | Apply clustering algorithms |
+| 4 | Evaluate results via visuals and silhouette |
+| 5 | Save cluster maps to output folders |
 
 ---
 
@@ -63,9 +63,9 @@ Results saved in: [`clustering_results/`](https://drive.google.com/drive/folders
 
 After evaluating all approaches, the **Improved KMeans** method was selected as the final model based on:
 
-- ✅ Structural clarity in rings, gaps, and spirals
-- ✅ Robustness across various disk shapes and viewing angles
-- ✅ Faster runtime and better visual interpretability
-- ✅ Clean output without needing extensive parameter tuning
+1) Structural clarity in rings, gaps, and spirals
+2) Robustness across various disk shapes and viewing angles
+3) Faster runtime and better visual interpretability
+4) Clean output without needing extensive parameter tuning
 
 ---
